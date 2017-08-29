@@ -1,0 +1,19 @@
+{
+  "name": "angular-character-gui",
+  "version": "0.0.1",
+  "description": "A Web user interface for creating and editing characters, written in angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon server/server.js"
+  },
+  "author": "Grant Boomer",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
