@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon server/server.js"
+    "start": "nodemon server/server.js",
+    "build": "node ./node_modules/webpack/bin/webpack --config ./webpack.config.js"
   },
   "author": "Grant Boomer",
   "license": "MIT",
@@ -14,6 +15,9 @@
     "express": "^4.15.4"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.5.2",
+    "webpack": "^3.5.5"
   }
 }

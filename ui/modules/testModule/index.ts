@@ -1,0 +1,1 @@
+export {ControllerTwo} from "./controllers/ControllerTwo"
